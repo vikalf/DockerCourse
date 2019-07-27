@@ -11,6 +11,9 @@ COPY . .
 WORKDIR "/src"
 RUN dotnet build "DockerRedisAppNew.csproj" -c Release -o /app
 
+FROM build AS test
+RUN 
+
 FROM build AS publish
 RUN dotnet publish "DockerRedisAppNew.csproj" -c Release -o /app
 
