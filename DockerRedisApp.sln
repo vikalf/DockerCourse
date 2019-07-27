@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerRedisAppNew", "DockerRedisAppNew\DockerRedisAppNew.csproj", "{BE412701-E156-4D5D-9C2D-EFDC1A7768A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerRedisAppNew", "DockerRedisAppNew\DockerRedisAppNew.csproj", "{BE412701-E156-4D5D-9C2D-EFDC1A7768A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerRedisAppNew.Tests", "DockerRedisAppNew.Tests\DockerRedisAppNew.Tests.csproj", "{C5DD6575-CEAD-498A-841D-C50C49A79CC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BE412701-E156-4D5D-9C2D-EFDC1A7768A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE412701-E156-4D5D-9C2D-EFDC1A7768A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE412701-E156-4D5D-9C2D-EFDC1A7768A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5DD6575-CEAD-498A-841D-C50C49A79CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5DD6575-CEAD-498A-841D-C50C49A79CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5DD6575-CEAD-498A-841D-C50C49A79CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5DD6575-CEAD-498A-841D-C50C49A79CC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
