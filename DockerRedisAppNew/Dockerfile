@@ -17,5 +17,4 @@ RUN dotnet publish "DockerRedisAppNew.csproj" -c Release -o /app
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app .
-ENV REDIS_URL 192.168.99.100:6379
 ENTRYPOINT ["dotnet", "DockerRedisAppNew.dll"]
